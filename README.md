@@ -13,7 +13,9 @@ However, depending on the CPU performance, the code may take several days to run
 # Python Dependencies
 
 numpy (1.24.3)
+
 networkx (2.8.4)
+
 pandas (1.5.3)
 
 # Simulation Guide
