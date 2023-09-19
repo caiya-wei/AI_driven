@@ -12,15 +12,18 @@ However, depending on the CPU performance, the code may take several days to run
 
 # Python Dependencies
 
-numpy (1.24.3)
+numpy 
 
-networkx (2.8.4)
+networkx
 
-pandas (1.5.3)
+pandas 
+
+scipy
+
 
 # Simulation Guide
-With evolution_of_reciprocity.py, we simulate the evolution of direct and indirect reciprocity on networks and calculate the fixation probability of a cooperator (Fig. 2 and Extended Fig. 1).
+With bc_ratio_random_networks.py, we calculate the critical benefit-to-cost ratios of random networks, reproducing the results of Fig. 2 and Fig. 3.
 
-With calculate_bc_ratio.py, we calculate the critical benefit-to-cost ratios of one million random networks (Fig. 3).
+With fixation_probability.py, we calculate the fixation probability of one of such reciprocity strategies invading N - 1 defectors, which reproduces the result of Fig. 4.
 
-With bc_ratio_dc_error.py, we reproduce the results in Fig. 4.
+With bc_ratio_empirical_network.py, we calculate the critical benefit-to-cost ratios of six empirical networks, which reproduces the result of Fig. 5.
