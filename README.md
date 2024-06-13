@@ -22,8 +22,4 @@ scipy
 
 
 # Simulation Guide
-With bc_ratio_random_networks.py, we calculate the critical benefit-to-cost ratios of random networks, reproducing the results of Fig. 2 and Fig. 3.
-
-With fixation_probability.py, we calculate the fixation probability of one of such reciprocity strategies invading N - 1 defectors, which reproduces the result of Fig. 4.
-
-With bc_ratio_empirical_network.py, we calculate the critical benefit-to-cost ratios of six empirical networks, which reproduces the result of Fig. 5.
+With main.py and main_xx.py, we calculate the fixation probability of cooperators on random and empirical networks, which reproduces the results of Figs. 2 - 5.
